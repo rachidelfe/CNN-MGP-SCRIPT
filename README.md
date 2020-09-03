@@ -4,13 +4,13 @@ Convolutional Neural Networks for Metagenomics Gene Prediction(CNN-MGP)
 --------------------------------------------
 
 CNN-MGP is a metagenomic ORF finding tool for the prediction of protein coding genes in short, environmental DNA sequences with unknown phylogenetic origin. CNN-MGP is based on 10  models trained on 10 pre-defined GC content ranges. The scripts extract all ORFS, one hot ecoded them afterward feeds the ORFS to the right model. 
-CNN-MGP analyses can be performed via the CNN-MGP website [coming soon](), or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works metagenomic sequencing.
+CNN-MGP analyses can be performed via the CNN-MGP website [coming soon](), or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works.
 
 
 Predicting genes
 -----------------------------------------------------------------------
 
-If metagenomic sequences are submitted, CNN-MGP first extract all complete and incomplete open reading frames (ORFs) using our integrated orf finder (casting ORFS less than 80 bp), The user customize the desirable parametre for the script and the output is eather the predicted nucliotide CDS, protein sequences or both.
+If metagenomic fragements are submitted, CNN-MGP first extracts all complete and incomplete open reading frames (ORFs) using our integrated orf finder (casting ORFS less than 80 bp), The user customize the desirable parametre for the script and the output is eather the predicted nucliotide CDS, protein sequences or both.
 
 
 Table of Contents
@@ -139,7 +139,11 @@ The following command will bring up CNN-MGP's main help menu:
                Type Both for two output files 
 
                ---------------------------------------------------------------------------------------
-             
+
+The scripts  support interactive mode as follow 
+* First excute the script 
+* submit the file and the parametre as inputs 
+
              
              
              
