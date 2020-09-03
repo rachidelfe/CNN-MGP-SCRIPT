@@ -142,7 +142,7 @@ The following command will bring up CNN-MGP's main help menu:
 
 The scripts  support interactive mode as follow 
 * First excute the script 
-* submit the file and the parametre as inputs 
+* submit each message prompt in the terminal
 
              
              
