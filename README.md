@@ -15,15 +15,15 @@ The script predict genes from metagenomic file :
   * -i 
     * Input fasta file name
   * -o
-    * Output fasta file name
+    * The name of the output file
   * -min
-    * Minimum ORF length
+    * Minimum ORF length to be considered when running the script
   * -st
     * Specify the type of output you want to generate (i.e., protein translated gene, nucleotide CDS, or both)
-    * nucl or prot or both
+    * Nucl or Prot or Both
 
   * -u
-    * specify the type ofstart codon unresolved codons(ie, ATG, CTG, GTG, TTG).or just codon start ATG
+    * specify the type of start codon. For unresolved codons(ie, ATG, CTG, GTG, TTG) Type 1. Or Type 0 for just ATG as codon start.
 * **interactive mode**
   * execute the scripts with no arguments
     * provide each argument as an input 
