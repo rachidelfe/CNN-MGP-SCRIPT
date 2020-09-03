@@ -97,11 +97,9 @@ Help Menu and Usage
 
 The following command will bring up CNN-MGP's main help menu:
 
-.. code-block:: sh
 
-   MGP --help
+   `CNN-MGP --help`
 
-.. code-block:: sh
 
       usage: CNN-MGP <command> [<args>]
             commands are:
