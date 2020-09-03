@@ -87,7 +87,7 @@ def validate_args(args):
 
     return args
 # Reqs
-usage = """%(prog)s predict genies in Metagenomics fragments """
+usage = """%(prog)s predict gene in Metagenomics fragments """
 p = argparse.ArgumentParser(description=usage)
 p.add_argument("-i", "-input", dest="fileName",
                    help="Input fasta file name")
@@ -95,7 +95,7 @@ p.add_argument("-o", "-output", dest="outputFileName",
                    help="Output fasta file name")
 # Opts
 p.add_argument("-min", "--minimum", type=int, dest="minOrfLenght",
-                   help="Minimum ORF length.any number lower than 80 well be override to 80, Default .= 80.", default=80)
+                   help="Minimum ORF length.any number lower than 80 well be override to 80, Default = 80.", default=80)
 
 p.add_argument("-st", "--seqtype", dest="sequenceType", choices = ['prot', 'nucl', 'both', 'PROT', 'NUCL', 'BOTH'],
                    help="Specify the type of output you want to generate (i.e., protein translated gene, nucleotide CDS, or both). If you specify 'both', two outputs with '_prot' and '_nucl' suffix will be generated. Default == 'nucl'.", default="nucl")
