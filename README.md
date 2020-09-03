@@ -31,12 +31,12 @@ Use or reproduction of these materials, in whole or in part, by any commercial o
 Citation
 --------
 
-Al-Ajlan, A., El Allali, A. CNN-MGP: Convolutional Neural Networks for Metagenomics Gene Prediction. [Epub ahead of print] (https://doi.org/10.1007/s12539-018-0313-4)
+Al-Ajlan, A., El Allali, A. CNN-MGP: Convolutional Neural Networks for Metagenomics Gene Prediction. [Epub ahead of print](https://doi.org/10.1007/s12539-018-0313-4)
 
 Support & Bug Reports
 ----------------------
 
-Please log an issue on `github issue < >`_.
+Please log an issue on [github issue]().
 
 You can email the CARD curators or developers directly at [rachid.elfermi@gail.com](<rachid.elfermi@gail.com>)
 
