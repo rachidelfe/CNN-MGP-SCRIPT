@@ -419,7 +419,7 @@ with open(fileName) as file:
     sequences.append((descr, seq))
 print(len(sequences), " Fragment found !")
 
-print('Scanning Fragment for coding ORFS')
+print('Scanning Fragments for coding ORFS')
 
 for index, value in tqdm(
         enumerate(sequences)):  # extracting all orf in each fragment then predicting  coding from non-coding orfs
@@ -559,4 +559,4 @@ for index, value in tqdm(
                 orfscoords.write(">" + str(listOfOrfID[i]).replace('[', '').replace(']', '') + "\n")
 
 orfscoords.close()
-print('Program completed successfullfray!')
+print('Program completed successfully!')
